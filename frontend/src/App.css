@@ -1,0 +1,17 @@
+.image-display {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-container {
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 200px;
+}
